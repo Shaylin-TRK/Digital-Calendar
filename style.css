@@ -1,0 +1,125 @@
+/*Stylesheet for Codecademy project*/
+
+/*Set up background and header classes*/
+body {
+    background-color: rgb(58, 55, 55);
+    background-image: url('./background.jpg');
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.fancy-header {
+    text-align: center;
+    text-shadow: 1px 1px 2px rgb(45, 46, 94), 
+                 2px 2px 2px rgb(45, 46, 94);
+}
+
+/*Header*/
+header {
+    display: flex;
+    
+    text-shadow: 1px 1px 2px rgb(45, 46, 94), 
+                 2px 2px 2px rgb(45, 46, 94);
+}
+
+header h1 {
+    margin: auto;
+}
+
+header h3 {
+    position: absolute;
+    color: rgb(0, 0, 0);
+}
+
+header h3:active {
+    color: rgb(22, 22, 102);
+}
+
+
+/*Divider*/
+hr {
+    height: 5px;
+    background-color: #888;
+}
+
+/*Main Content*/
+#main-table {
+    display: flex;
+    margin: auto;
+    max-width: 1300px;
+    min-width: 500px;
+}
+
+table {
+    margin: auto;
+}
+
+/*Table Header*/
+
+
+thead th {
+    background-color: rgb(45, 46, 94);
+    border: 3px inset rgb(50, 51, 109);
+}
+
+.thead-content {
+    font-weight: bold;
+}
+
+#time-head {
+    min-width: 75px;
+}
+
+#activity-head {
+    min-width: 300px;
+}
+
+/*Table Body*/
+tbody td {
+    background-color: rgb(145, 143, 143);
+    border: 3px inset rgb(136, 136, 136);
+}
+
+/*Table Footer*/
+tfoot td {
+    color: rgb(161, 160, 160);
+    background-color: rgb(45, 46, 94);
+    border: 3px inset rgb(50, 51, 109);
+}
+
+
+/*Footer*/
+footer {
+    display: inline;
+    margin: auto;
+    
+    position: relative;
+    top: 20px;
+
+    min-width: 500px;
+    max-width: 1000px;
+    background-color: grey;
+    border: 5px inset rgb(88, 88, 88);
+    border-radius: 50px;
+    display: flex;
+    
+    text-shadow: 1px 1px 2px rgb(45, 46, 94), 
+                 2px 2px 2px rgb(45, 46, 94);
+}
+
+.footer {
+    display: flex;
+    margin: auto;
+}
+
+footer a {
+    color: rgb(24, 26, 104);
+} 
+
+footer a:active {
+    color: rgb(13, 12, 88)
+}
+
+
+
